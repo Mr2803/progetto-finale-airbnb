@@ -83,7 +83,12 @@
                 <div class="title m-b-md">
                     Laravel
                 </div>
+<<<<<<< Updated upstream
 
+=======
+                ciao ciao
+                Hello world!
+>>>>>>> Stashed changes
                 <div class="links">
                     <a href="https://laravel.com/docs">Docs</a>
                     <a href="https://laracasts.com">Laracasts</a>
