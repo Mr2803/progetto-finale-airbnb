@@ -20,6 +20,34 @@ Una volta trovata l’appartamento desiderato, l’utente interessato può conta
 Inoltre, i proprietari di un appartamento possono decidere di pagare per sponsorizzare l’annuncio del proprio appartamento per fare in modo che il loro annuncio sia maggiormente in evidenza rispetto a quelli non sponsorizzati.
 </p>
 
+<h2>Installazione</h2>
+<pre>$ git clone https://github.com/Mr2803/progetto-finale-airbnb.git
+$ composer install
+$ npm install
+$ cp .env.example .env
+</pre>
+<p>Crea un nuovo database ed inserisci i seguenti dati nel file env come da guida</p>
+
+<pre>
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=your_database_name
+DB_USERNAME=your_user
+DB_PASSWORD=your_password</pre>
+
+<p>Genera la tua chiave</p>
+<pre>$ php artisan key:generate</pre>
+
+<p>Popola il tuo database con faker</p>
+<pre>$ php artisan migrate:refresh --seed</pre>
+
+<p>Lancia il tuo server</p>
+<pre>$ php artisan serve</pre>
+
+<p>...In un altro terminale lancia</p>
+<pre>$ npm run watch</pre>
+
 <h2>Tecnologie Utilizzate</h2>
 <ul>
 <li>HTML</li>
@@ -43,6 +71,10 @@ Inoltre, i proprietari di un appartamento possono decidere di pagare per sponsor
 <li>MySQL</li>
 <li>Geolocation (TomTom Developer )</li>
 </ul>
+
+
+
+
 
 <h2>Preview</h2>
 
